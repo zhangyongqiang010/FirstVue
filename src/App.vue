@@ -5,6 +5,8 @@
     <Input/>
     <Tab/>
     <ToDoList/>
+    <Pageation/>
+    <Checkbox/>
   </div>
 </template>
 
@@ -13,6 +15,8 @@
   import Input from './components/Input'
   import Tab from './components/Tab'
   import ToDoList from './components/ToDoList'
+  import Pageation from './components/Pageation'
+  import Checkbox from './components/Checkbox'
 
   export default {
     name: 'App',
@@ -20,7 +24,9 @@
       HelloWorld,
       Input,
       Tab,
-      ToDoList
+      ToDoList,
+      Pageation,
+      Checkbox
     }
   }
 </script>

@@ -28,7 +28,7 @@
 </template>
 <script>
   import Cart from './Cart'
-  export default{
+  export default {
     name: 'Tab',
     data: function(){
       return { 'tabId':0 }

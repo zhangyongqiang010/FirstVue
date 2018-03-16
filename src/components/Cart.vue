@@ -24,7 +24,7 @@
           <div class="productCount">
             <div class="numBox">
               <span class="decrease" @click="decreaseNum(index)"></span>
-              <input class="num-input" type="number" v-model="item.pro_num"> 
+              <input class="num-input" type="text" v-model="item.pro_num"> 
               <span class="increase" @click="increaseNum(index)"></span>
             </div>
           </div>
@@ -52,7 +52,7 @@
   </div>
 </template>
 <script>
-  export default{
+  export default {
     name: 'Cart',
     data: function(){
       return {
@@ -285,16 +285,13 @@
               .num-input{
                 display: inline-block;
                 width:32px;
-                height:25px;
-                vertical-align: 7px;
+                height:26px;
+                vertical-align: 6px;
                 text-align: center;
                 outline:none;
                 border: 0px;
                 border-left:1px solid #aaa;
                 border-right:1px solid #aaa;
-              }
-              .num-input:focus{
-                border: 1px solid #aaa;
               }
               .decrease{
                 display: inline-block;
