@@ -14,8 +14,8 @@
       <input type="radio" name="verbType" @click="verbType(3)"><span>未完成目标</span>
     </div>
     <ul>
-      <li v-for="(item,index) in newList">
-        <input type="checkbox"  @click="item.status = !item.status">
+      <li v-for="(item,index) in newList" @click="">
+        <input type="checkbox" v-model="item.status" @click="item.status = !item.status">
         {{ item.name }}
         <span class="del" @click="delList(index)">X</span></br>
         <input class="edit" v-model="item.name">
