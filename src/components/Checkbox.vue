@@ -25,7 +25,7 @@ export default {
   name: 'Chexckbox',
   data () {
     return {
-      sex: '',
+      sex: 'men',
       people: {
         'ming': false,
         'hong': false,
@@ -57,9 +57,16 @@ export default {
   display: block;
   padding:20px;
   text-align: left;
+  .radio {
+    margin:20px 0px;
+    p{
+      margin: 20px 0px;
+    }
+  }
   .selected{
     margin: 30px;
     select{
+      border: 1px solid #aaa;
       width: 300px;
     }
   }
