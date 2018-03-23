@@ -7,6 +7,10 @@
     <ToDoList/>
     <Pageation/>
     <Checkbox/>
+    <LayOut/>
+    <Search/>
+    <Switchs/>
+    <Toast/>
   </div>
 </template>
 
@@ -17,6 +21,10 @@
   import ToDoList from './components/ToDoList'
   import Pageation from './components/Pageation'
   import Checkbox from './components/Checkbox'
+  import LayOut from './components/LayOut'
+  import Search from './components/Search'
+  import Switchs from './components/Switchs'
+  import Toast from './components/Toast'
 
   export default {
     name: 'App',
@@ -26,7 +34,11 @@
       Tab,
       ToDoList,
       Pageation,
-      Checkbox
+      Checkbox,
+      LayOut,
+      Search,
+      Switchs,
+      Toast,
     }
   }
 </script>

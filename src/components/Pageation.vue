@@ -54,8 +54,10 @@
 </script>
 <style lang="scss" scoped>
   #pageation{
+    display: block;
     text-align: center;
     ul{
+      display: inline-block;
       li{
         margin:20px 5px 20px 5px;
         padding:5px 10px;
